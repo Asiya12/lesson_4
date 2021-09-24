@@ -1,0 +1,205 @@
+/*при подключении через плагин google fonts добавить параметр &display=swap&subset=cyrillic-ext для правильной и быстрой загрузки шрифта*/
+
+/* (1) Удаленное подключение. Подключение из внешнего источника (по ссылке) */
+/* nunito bold */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+/* (2) Локальное подключение. Подключение локальных файлов */
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Regular.woff2') format('woff2'), url('../fonts/Nunito-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Bold.woff2') format('woff2'), url('../fonts/Nunito-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../fonts/SourceSerifPro-Bold.woff2') format('woff2'), url('SourceSerifPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Source Serif Pro';
+    src: url('SourceSerifPro-SemiBoldIt.woff2') format('woff2'), url('SourceSerifPro-SemiBoldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	line-height: 1;
+}
+/* ------------------------------ */
+
+img {
+	display: center;
+}
+
+.title {
+	font-size: 30px;
+	font-family: 'Source Serif Pro';
+	font-weight: 700;
+	color: blueviolet;
+	text-align: center;
+	text-shadow: 0 0 20px rgb(51, 255, 0);
+}
+
+#contentslist {
+	font-family: 'Source Serif Pro';
+	font-weight: 600;
+	color: green;
+}
+
+.parts {
+	font-family: 'Nunito';
+	font-weight: 700;
+}
+
+.entry {
+	font-family: 'Nunito';
+	color: lightseagreen;
+	text-indent: 50px;
+	line-height: 120%;
+	font-style: italic;
+	font-size: 25px;
+	text-align: justify;
+}
+
+h2 {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	color: magenta;
+}
+
+.bold {
+	font-family: 'Nunito';
+	font-weight: 700;
+	color: mediumpurple;
+	text-decoration: underline;
+}
+
+.italic {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	text-decoration: line-through;
+	color: orchid;
+}
+
+li {
+	list-style: circle;
+	list-style-position: inside;
+	text-indent: 10px;
+}
+
+h2 {
+	line-height: 200%;
+}
+
+#part1 {
+	text-transform: lowercase;
+	line-height: 300%;
+	letter-spacing: normal;
+}
+
+#part2 {
+	word-spacing: 50px;
+	text-transform: capitalize;
+	text-align: right;
+	text-decoration: underline;
+}
+
+#part3 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-decoration: overline;
+}
+
+.item1 {
+	text-align: center;
+}
+
+.item2 {
+	white-space: nowrap;
+	font-size: 25px;
+}
+
+.item3 {
+	text-align: justify;
+	color: olivedrab;
+	font-weight: 700;';
+}
+
+.item4 {
+	text-shadow: 10px 5px 3px tomato;
+}
+
+.item5 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: italic;
+	color: crimson;
+}
+
+#list {
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	color: darkgreen;
+	text-transform: capitalize;
+	text-decoration: line-through;
+}
+
+.back {
+	font-family: 'Source Serif Pro', serif;
+	line-height: 500%;
+	text-decoration: underline;
+	letter-spacing: 2px;
+}
