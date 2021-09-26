@@ -6,11 +6,11 @@
 
 /* (2) Локальное подключение. Подключение локальных файлов */
 @font-face {
-    font-family: 'Nunito';
-    src: url('Nunito-Regular.woff2') format('woff2'), url('../fonts/Nunito-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Nunito";
+	src: url("../fonts/Nunito-Regular.woff2") format("woff2"), url("../fonts/Nunito-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* @font-face {
@@ -22,11 +22,11 @@
 } */
 
 @font-face {
-    font-family: 'Source Serif Pro';
-    src: url('../fonts/SourceSerifPro-Bold.woff2') format('woff2'), url('SourceSerifPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Source Serif Pro";
+	src: url("../fonts/SourceSerifPro-Bold.woff2") format("woff2"), url("../fonts/SourceSerifPro-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* @font-face {
